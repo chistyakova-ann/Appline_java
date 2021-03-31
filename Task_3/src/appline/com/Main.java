@@ -8,7 +8,7 @@ public class Main {
         mass[0]=last_element;
         mass[mass.length-1]=first_element;
         int middle_element=mass[(mass.length-1)/2];
-        int sum=mass[mass.length-1]+middle_element;
-        System.out.println("Сумма последнего и средего элеметов массива: "+sum);
+        int sum=mass[0]+middle_element;
+        System.out.println("Сумма первого и средего элеметов массива: "+sum);
     }
 }
