@@ -32,14 +32,14 @@ public class Main {
                         System.out.println("Введите количество выбраных единиц");
                         funt = in.nextDouble();
                         gramm=funt*453.592;
-                        kilo=gramm*1000;
+                        kilo=gramm/1000;
                         unc=kilo*35.274;
                         break;
                     case 4:
                         System.out.println("Введите количество выбраных единиц");
                         unc = in.nextDouble();
                         gramm=unc*28.3495;
-                        kilo=gramm*1000;
+                        kilo=gramm/1000;
                         funt=kilo*2.20462;
                         break;
                     default:

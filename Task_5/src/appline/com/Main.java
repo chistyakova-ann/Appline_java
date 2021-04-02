@@ -26,7 +26,7 @@ public class Main {
             case "/":
                if(y!=0) {
                    res=x/y;
-               }else {  System.out.println("На ноль делить нельзя!!");}
+               }else {  System.out.println("На ноль делить нельзя!!");return;}
                break;
             default:
                 System.out.println("Такого знака нет:)");
